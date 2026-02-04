@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "library-react-tutorial/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "library-react-tutorial/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
