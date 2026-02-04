@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-module-5",
+  "private": true,
+  "volta": {
+    "node": "16.20.2",
+    "npm": "8.19.4"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.30.3"
+  }
+}
